@@ -1,0 +1,17 @@
+
+
+
+@media (width<470px) {
+    .myaccount_container{
+        width: 80%;
+    }
+    .myaccount_name_container{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media (width<300px) {
+    .myaccount_container{
+        width: 98%;
+    }
+}

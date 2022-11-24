@@ -1,0 +1,14 @@
+
+
+@media (width<1280px) {
+    .footer_botton{
+        display: flex;
+        justify-content: space-between;
+        /* width: 100%; */
+    }
+}
+@media (width<630px) {
+    .footer_botton{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,32 @@
+.profile_container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10vh;
+    height: 90vh;
+    padding: 0px 32px;
+    padding: 0px ;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .profile_nav_phone{
+  display: none;
+  }
+  
+  @media (width<537px) {
+  .profile_nav_phone{
+    display: block;
+  }
+  .profile_nav{
+    display: none;
+  }
+  }
+  @media (width<300px) {
+  .profile_container{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  }

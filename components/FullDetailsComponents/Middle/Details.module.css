@@ -1,0 +1,12 @@
+.detailBoxContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media (width < 750px) {
+    .detailBoxContainer{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}

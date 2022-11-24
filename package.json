@@ -1,0 +1,62 @@
+{
+  "name": "pb-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^2.0.10",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.10.0",
+    "flowbite": "^1.5.3",
+    "next": "^13.0.1",
+    "next-sitemap": "^3.1.30",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-phone-number-input": "^3.2.11",
+    "react-responsive-carousel": "^3.2.23",
+    "rsuite": "^5.17.1",
+    "suneditor": "^2.44.2",
+    "suneditor-react": "^3.4.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "sitemap": "next-sitemap --config next-sitemap.config.js",
+    "postbuild": "next-sitemap --config next-sitemap.config.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "autoprefixer": "^10.4.8",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^8.27.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "4.8.4"
+  }
+}

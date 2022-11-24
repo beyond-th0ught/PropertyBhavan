@@ -1,0 +1,36 @@
+.listYourProperty{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 10vh;
+  height: 90vh;
+  width: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.how_to_list_phone{
+  display: none;
+}
+
+@media (width<700px) {
+  .how_to_list_desktop{
+    display: none;
+  }
+  .how_to_list_phone{
+    /* border: 2px solid rebeccapurple; */
+    display: block;
+    height: fit-content;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (width<420px) {
+  .how_to_list_phone{
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.nearby_container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+@media (width < 770px) {
+    .nearby_container{
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+}

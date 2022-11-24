@@ -1,0 +1,16 @@
+.ove_det {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 75%;
+    color: rgba(5, 5, 5, 0.8);
+}
+
+@media (width < 520px) {
+    .ove_det {
+        width: 100%;
+        font-size: 1.12rem;
+    }
+}
